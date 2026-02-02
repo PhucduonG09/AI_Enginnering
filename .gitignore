@@ -1,0 +1,17 @@
+# Bỏ qua thư mục dữ liệu (QUAN TRỌNG NHẤT)
+dataset/
+data/
+
+# Bỏ qua môi trường ảo
+venv/
+env/
+.env
+
+# Bỏ qua các file cache của Jupyter và Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Bỏ qua file model quá nặng (nếu file > 100MB git sẽ lỗi)
+# Nếu file nhỏ bạn có thể bỏ dòng này đi
+*.h5
+*.keras
